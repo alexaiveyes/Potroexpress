@@ -1,0 +1,108 @@
+form{
+    width: 500px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.form2{
+    width: 1300px;
+    margin: auto;
+    background: rgba(0,0,0,0.190);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.form3{
+    width: 200px;
+    margin: auto;
+    background: rgba(0,0,0,0.190);
+    padding: 0px 0px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    border-radius: 10px;
+    
+}
+.form4{
+    width: 200px;
+    border-radius: 10px;
+}
+.form5{
+    width: 700px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+img.alineadoTextoImagenArriba{
+  vertical-align: middle; 
+}
+
+.XD input, textarea{
+    width: 27%;
+    margin-bottom: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    box-sizing:content-box;
+    font-size: 17px;
+    border: none;
+}
+.XD2 input, textarea{
+    width: 27%;
+    margin-bottom: 20px;
+    padding: 0px;
+    border-radius: 5px;
+    box-sizing:content-box;
+    font-size: 30px;
+    border: none;
+}
+.XD3 input, textarea{
+    width: 10%;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    box-sizing:border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    background: #31384A;
+    color:#fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+#boton:hover{
+    cursor: pointer;
+    background:#fff;
+    color: #333;
+}
+#checkbox{
+    width: 20px;
+}
+
+a:link
+{
+text-decoration:none;
+} 
+
+table{
+    border: 10px;
+}

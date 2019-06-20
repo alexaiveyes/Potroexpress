@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title> PotroExpress | Trabaja con nosotros </title>
+    
+    <link href="Resource/Ccs/MenuD.css" rel="stylesheet">
+    <link rel="stylesheet" href="Resource/Ccs/estilo.css">
+    <link rel="shortcut icon" type="image/ico" href="Resource/Logos/favicon.ico"/>
+    
+    <style type="text/css">    
+    @font-face {
+        font-family: "bebas";
+
+        src: url("bebas.ttf") format("truetype");
+        }       
+        .fuenteosvaldo{font-family:"bebas";font-size: 20px;}
+        </style>
+<script type="text/javascript">
+function pulsar() {
+alert("Has enviado tu información, PotroExpress se pondra en contacto contigo por correo para confirmarte o informarte algún error");
+}
+</script>
+    
+</head>
+<body>
+        <header>
+        <div class="fuenteosvaldo">
+		<nav class="navegacion">
+			<ul class="menu">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="#">¿Quienes Somos?</a></li>
+                <li><a href="trabaja.html">Trabajar con nosotros</a></li>
+                <li><a href="ingresar.html">Ingresar</a></li>
+				<li><a href="alumnado.html">Registrarse (Alumnado)</a></li>
+			</ul>
+		</nav>
+    </div>
+ </header>
+ <br>
+ <br>
+ <br>
+    <center>
+    <p style="border: 8px solid #fff; padding: 20px; background-color: rgb #fff; color: black; font-family: bebas,helvetica; font-size: 35px; font-weight: bold;">
+    Por favor considera estos puntos antes de enviar tu solicitud:<br>
+    ● Tener la licencia de conducir actualizada y que este a tu nombre <br>
+    ● Licencia de conductor de transporte publico <br>
+    ● Tarjeta de circulacion vigente <br>
+    ● No contar con multas <br>
+    </p>
+    </center>
+    <br>
+    <br>
+    <center><p style="font-family: bebas; font-size: 35px;color: #fff">Datos de contacto</p></center>
+    <form action="">
+    <br>
+    <input type="text" name="NombreConductor" placeholder="Nombre Completo" style="font-family: century gothic">
+    <input type="text" name="CorreoConductor" placeholder="Correo Electronico (Lo usaremos para contactarlo)" style="font-family: century gothic">
+    <input type="number" name="EdadConductor" placeholder="Edad" style="font-family: century gothic" min="18" max="90">
+    <input type="text" name="TelefonoConductor" placeholder="Telefono (Lo usaremos para contactarlo)" style="font-family: century gothic" >
+    <textarea name="descripcion" placeholder="Describa porque deberiamos de seleccionarlo" style="font-family: century gothic"   ></textarea>
+    <br>
+    <form method="post" enctype="multipart/form-data"><br>
+    <p style="font-family: bebas; font-size: 20px;color: #fff;">Licencia de conducir</p>
+    <input type=file size=60 name="file1">
+    <p style="font-family: bebas; font-size: 20px;color: #fff;">Licencia de conductor de transporte publico</p>
+    <input type=file size=60 name="file2">
+    <p style="font-family: bebas; font-size: 20px;color: #fff;">Tarjeta de circulacion</p>
+    <input type=file size=60 name="file3">
+    <input type="checkbox" name="terms" id="checkbox"><font style="font-family:'century gothic'; font-size:'8'">Acepto los términos y condiciones</font>
+    <input type="button" value="Subir" id="boton" onclick="pulsar()"><br>
+    </form><br>
+  
+</body>  
+</html>
